@@ -1,0 +1,1 @@
+This repository demonstrates a subtle ZeroDivisionError in Python. The error is unexpected because the code appears to handle the case where 'a' is 0. The bug lies in the order of operations. When a is 0 the program still tries to compute a/b before the if statement is evaluated resulting in a ZeroDivisionError.  The solution shows how to correctly handle this edge case.
